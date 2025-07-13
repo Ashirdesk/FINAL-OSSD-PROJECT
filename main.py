@@ -4,7 +4,7 @@ from tkinter import messagebox
 from weather_api import fetch_weather
 import os
 
-# Save history to a text file
+# Save history to a text  file
 def save_to_history(city, temperature):
     with open("history.txt", "a") as file:
         file.write(f"{city} - {temperature}°C\n")
